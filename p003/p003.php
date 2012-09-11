@@ -2,11 +2,11 @@
 
 $number = "600851475143";
 $primeFactors = array();
-decomposite($number, $primeFactors);
+factorize($number, $primeFactors);
 
 echo max($primeFactors);
 
-function decomposite($number, &$primeFactors, $primeNumber = "2") {
+function factorize($number, &$primeFactors, $primeNumber = "2") {
 
    while($number != 1) {
       
