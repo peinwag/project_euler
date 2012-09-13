@@ -1,25 +1,28 @@
 <?php
 
-$number = "600851475143";
-$primeFactors = array();
-factorize($number, $primeFactors);
+if(!defined('LIBRARY_MODE')) {
 
-echo max($primeFactors);
 
-function factorize($number, &$primeFactors, $primeNumber = "2") {
+	$number = "600851475143";
+	$primeFactors = array();
+	factorize($number, $primeFactors);
 
-   while($number != 1) {
+	echo max($primeFactors);
+
+	function factorize($number, &$primeFactors, $primeNumber = "2") {
+
+	   while($number != 1) {
       
-      if(bcmod($number, $primeNumber) == 0) {
-         $primeFactors[] = $primeNumber;
-         $number = bcdiv($number, $primeNumber);
-         $primeNumber = 2;
-      }
+     	 if(bcmod($number, $primeNumber) == 0) {
+        	 $primeFactors[] = $primeNumber;
+         	$number = bcdiv($number, $primeNumber);
+         	$primeNumber = 2;
+      	}
 
-      $primeNumber = getNextPrime($primeNumber);
-   }
+     	 	$primeNumber = getNextPrime($primeNumber);
+   		}
+	}
 }
-
 function getNextPrime($number) {
 
 	$prime = false;
