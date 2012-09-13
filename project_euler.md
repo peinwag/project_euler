@@ -88,3 +88,16 @@ Ideas for new problems come from our own members and they are developed by a tea
 ### Can I make a donation?
 
 Absolutely! Project Euler is entirely financed by its own members, so if you have enjoyed the problems and would like to give something back by helping with the running costs then any donations are gratefully received.
+
+
+
+
+#### DISCLAIMER
+
+The popularity of Project Euler has increased tremendously over the years since its inception through the concerted effort of numerous people.
+
+Members have generally taken pride in showing their achievements. The obvious place to do so is the forum that is set up for each problem. However the increasing popularity has also been attracting people with a different agenda. With so many internet sites publishing answers for the PE problems instead of using the forum on this site, some people now seem to take pride in gathering and submitting those answers for whatever reason.
+
+It is humanly impossible for Project Euler, or indeed any member, to reliably differentiate those people from members that have solved the problems under their own steam. The ranking lists on Project Euler should be interpreted for what they are: an indication of the number of correct answers submitted by the member in question and validated by our answer checker. Individual members themselves know best what they have achieved on their own. Laying too much stress on competition might spoil the fun of problem solving which is one of the purposes of Project Euler. Also, any claim from a member about his own achievement cannot be supported as trustworthy by Project Euler. If critical, other means from third parties would be required to verify such claims.
+
+Providing quality problems for entertainment and educational purposes will continue to be the main goal of Project Euler, regardless of the intentions of a minority of the members.
