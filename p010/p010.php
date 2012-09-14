@@ -1,10 +1,8 @@
 <?php
-
 require_once '../functions.php';
 
 $res = 2;
 $start = 2;
-$primes = array();
 
 while(true) {
 
